@@ -6,11 +6,11 @@ body
 {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: radial-gradient(circle at top, #0f2027, #0e5d6b);
+  background: radial-gradient(circle at top, #0f2027, #060d10);
   color: white;
   scroll-behavior: smooth;
 }
-
+  
 /*navbar*/
 nav
 {
@@ -65,7 +65,8 @@ nav a:hover {
 .hero h1
 {
   font-size: 7.5em;
-  font-weight: 400;
+  font-weight: 600;
+  font-family: "gabriola", serif;
 }
 
 .hero p
@@ -73,6 +74,8 @@ nav a:hover {
   font-size: 2.3em;
   opacity: 0.85;
   margin-top: -90px;
+  font-weight: 520;
+  font-family: "gabriola", serif;
 }
 
 /* SEZIONI */
@@ -82,6 +85,7 @@ nav a:hover {
   align-items: stretch;
   gap: 60px;
   padding: 120px 10%;
+  font-size: 18px;
 }
 
 .section.reverse
@@ -106,6 +110,8 @@ nav a:hover {
   border-radius: 30px;
   backdrop-filter: blur(20px);
   text-align: center;
+  font-style: italic;
+  font-size: 17 px;
 }
 
 /* ANIMAZIONI */
@@ -113,7 +119,7 @@ nav a:hover {
 {
   opacity: 0;
   transform: translateY(80px);
-  transition: 1.2s ease;
+  transition: 2.5s ease;
 }
 
 .reveal.active
@@ -224,7 +230,7 @@ footer
   background-size: cover;
   background-position: center;
   filter: blur(8px);
-  opacity: 0.55;
+  opacity: 0.35;
   z-index: -2;
   transform: scale(1.1);
 }
@@ -259,7 +265,7 @@ footer
 
 
 footer button {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.10);
   color: white;
   border: 2px solid white;
   padding: 40px 80px;
@@ -272,6 +278,6 @@ footer button {
 }
 
 footer button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.10);
   transform: scale(1.05);
 }
